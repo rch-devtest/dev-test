@@ -1,3 +1,20 @@
+Usage
+===================
+
+Execute jar:
+
+java -jar GoEuroTest.jar "CITY_NAME"
+
+E.g. for Berlin:
+
+java -jar GoEuroTest.jar Berlin
+
+The tool will create a CSV named "CITY_NAME".csv.
+
+To create the .jar file execute:
+
+mvn install
+
 Java Developer Test
 ===================
 
